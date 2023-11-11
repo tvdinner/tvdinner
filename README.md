@@ -1,16 +1,40 @@
-### Hi there 👋
+Role Name
+=========
 
-<!--
-**tvdinner/tvdinner** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Creates and manages a self-hosted Docker cluster.
 
-Here are some ideas to get you started:
+Requirements
+------------
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+* An AWS Account – Used for DNS.
+* At least one physical server – Used for running Docker.
+* At least one NFS mount – Used for Docker volumes and storage. 
+
+Role Variables
+--------------
+
+A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+
+Dependencies
+------------
+
+A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+
+Example Playbook
+----------------
+
+Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
+
+    - hosts: servers
+      roles:
+         - { role: username.rolename, x: 42 }
+
+License
+-------
+
+MIT
+
+Author Information
+------------------
+
+* [joestump](https://github.com/joestump)
